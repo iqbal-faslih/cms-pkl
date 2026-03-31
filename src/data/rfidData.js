@@ -1,0 +1,66 @@
+// Static data for RFID students
+export const dataSiswa = [
+  {
+    id: 1,
+    nama: "Arya Pratama",
+    email: "arya.pratama@gmail.com",
+    masaMagang: "15 Februari - 15 Mei 2025",
+    sekolah: "SMK NEGERI 5 SURABAYA",
+    rfidTag: "RF2025001",
+    image: "/assets/img/post1.png",
+  },
+  {
+    id: 2,
+    nama: "Budi Santoso",
+    email: "budi.santoso@gmail.com",
+    masaMagang: "1 Maret - 30 Mei 2025",
+    sekolah: "SMK NEGERI 7 MALANG",
+    rfidTag: "RF2025002",
+    image: "/assets/img/post1.png",
+  },
+  {
+    id: 3,
+    nama: "Cynthia Riana",
+    email: "cynthia.riana@gmail.com",
+    masaMagang: "20 Februari - 20 Mei 2025",
+    sekolah: "SMK NEGERI 4 JEMBER",
+    rfidTag: "RF2025003",
+    image: "/assets/img/post1.png",
+  },
+  {
+    id: 4,
+    nama: "Dewi Anggraini",
+    email: "dewi.anggraini@gmail.com",
+    masaMagang: "10 April - 10 Juli 2025",
+    sekolah: "SMK NEGERI 1 MALANG",
+    rfidTag: "",  // No RFID assigned yet
+    image: "/assets/img/post1.png",
+  },
+  {
+    id: 5,
+    nama: "Rizki Ananda",
+    email: "rizki.ananda@gmail.com",
+    masaMagang: "8 April - 8 Juli 2025",
+    sekolah: "SMK NEGERI 2 BLITAR",
+    rfidTag: "",  // No RFID assigned yet
+    image: "/assets/img/post1.png",
+  },
+  {
+    id: 6,
+    nama: "Siti Nurhayati",
+    email: "siti.nurhayati@gmail.com",
+    masaMagang: "3 Mei - 3 Agustus 2025",
+    sekolah: "SMK NEGERI 3 SURABAYA",
+    rfidTag: "",  // No RFID assigned yet
+    image: "/assets/img/post1.png",
+  },
+  {
+    id: 7,
+    nama: "Ahmad Fauzi",
+    email: "ahmad.fauzi@gmail.com",
+    masaMagang: "1 Mei - 1 Agustus 2025",
+    sekolah: "SMK NEGERI 6 MALANG",
+    rfidTag: "RF2025006",
+    image: "/assets/img/post1.png",
+  },
+];

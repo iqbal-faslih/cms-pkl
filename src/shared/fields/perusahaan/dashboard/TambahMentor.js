@@ -1,0 +1,50 @@
+export const TambahMentorFields = [
+  {
+    name: "Nama",
+    label: "Nama",
+    type: "input",
+    placeholder: "Masukkan Nama Mentor",
+    required: true,
+  },
+  {
+    name: "Foto",
+    label: "Foto Profil Mentor",
+    type: "file",
+    placeholder: "Pilih file...",
+    required: true,
+  },
+  {
+    name: "Nomor",
+    label: "Nomor HP",
+    type: "input",
+    placeholder: "Masukkan Nomor HP",
+    required: true,
+  },
+  {
+    name: "Email",
+    label: "Email Akun Mentor",
+    type: "input",
+    placeholder: "Masukkan email untuk login mentor",
+    required: true,
+  },
+  {
+    name: "Password",
+    label: "Password Akun Mentor",
+    type: "input",
+    placeholder: "Masukkan password akun mentor",
+    required: true,
+  },
+  {
+    name: "Divisi",
+    label: "Divisi Mentor",
+    type: "select",
+    placeholder: "Pilih divisi mentor",
+    required: true,
+    options: [
+      { label: "UI/UX Designer", value: "uiux" },
+      { label: "Frontend Developer", value: "frontend" },
+      { label: "Backend Developer", value: "backend" },
+      { label: "HRD", value: "hrd" },
+    ],
+  },
+];
